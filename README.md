@@ -1,6 +1,7 @@
 Introduction (The Undependent Way)
 ============
 VxKex-Evolved is born from a simple truth: your hardware belongs to you, not to a corporate roadmap. While the industry builds walls around Windows 7 to force an artificial exodus, we build bridges. This is not a mere "patch" - it is a sovereign reconstruction of the system’s limits. 
+
 Being Undependent means our code is designed to ignore whatever "security" hurdles or breaking changes are pushed into the standard system32 environment. We don't play by their rigged deck; we play by our own rules. We have moved beyond the original scope to ensure that even if they try to break the core from the outside, our fortified extensions remain standing.
 
 To download and install, see the [releases page](https://github.com/i486/VxKex/releases).
