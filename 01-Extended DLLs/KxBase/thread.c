@@ -374,3 +374,9 @@ KXBASEAPI BOOL WINAPI GetSystemCpuSetInformation(
 	SetLastError(ERROR_NOT_SUPPORTED);
 	return FALSE;
 }
+
+KXBASEAPI PVOID WINAPI FlsGetValue2(
+	IN	DWORD	dwFlsIndex)
+{
+	return FlsGetValue(dwFlsIndex);
+}
