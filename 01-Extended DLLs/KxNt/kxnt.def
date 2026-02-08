@@ -24,6 +24,7 @@ EXPORTS
 	RtlPublishWnfStateData						= KexDll.KexRtlPublishWnfStateData
 	RtlSubscribeWnfStateChangeNotification		= KexDll.KexRtlSubscribeWnfStateChangeNotification
 	RtlAddGrowableFunctionTable					= KexDll.KexRtlAddGrowableFunctionTable
+	RtlGetDeviceFamilyInfoEnum = KexDll.KexRtlGetDeviceFamilyInfoEnum
 
 	ApiSetQueryApiSetPresence					= KexDll.ApiSetQueryApiSetPresence
 
