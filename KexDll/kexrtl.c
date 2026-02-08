@@ -948,6 +948,24 @@ KEXAPI NTSTATUS NTAPI KexRtlCheckPortableOperatingSystem(
 	return STATUS_SUCCESS;
 }
 
+KEXAPI VOID NTAPI KexRtlGetDeviceFamilyInfoEnum(
+	OUT	PULONGLONG	PullDeviceFamily,
+	OUT	PDWORD		pdwDeviceForm,
+	OUT	PDWORD		pdwDeviceFamilyRevision)
+{
+	if (PullDeviceFamily) {
+		*PullDeviceFamily = 1;
+	}
+
+	if (pdwDeviceForm) {
+		*pdwDeviceForm = 0;
+	}
+
+	if (pdwDeviceFamilyRevision) {
+		*pdwDeviceFamilyRevision = 0;
+	}
+}
+
 KEXAPI NTSTATUS NTAPI KexRtlUnsubscribeWnfStateChangeNotification(
 	IN	PVOID	Subscription)
 {
